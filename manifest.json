@@ -3,24 +3,22 @@
 	"version": "1.0",
 	"description": "Generate QR code from text",
 	"manifest_version": 2,
-	"page_action": {
-		"default_icon": {
-			"16": "images/icon.png",
-			"32": "images/icon.png",
-			"48": "images/icon.png"
-		}
+	"browser_action": {
+		"default_icon": "images/icon.png",
+		"default_popup": "popup.html"
 	},
 	"icons": {
 		"16": "images/icon.png",
 		"32": "images/icon.png",
-		"48": "images/icon.png"
+		"48": "images/icon.png",
+		"128": "images/icon.png"
 	},
 	"permissions": [
 		"contextMenus"
 	],
 	"background": {
 		"scripts": [
-			"background.js"
+			"background.js"	
 		]
 	}
 }

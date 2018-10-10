@@ -14,5 +14,13 @@
 		"16": "images/icon.png",
 		"32": "images/icon.png",
 		"48": "images/icon.png"
+	},
+	"permissions": [
+		"contextMenus"
+	],
+	"background": {
+		"scripts": [
+			"background.js"
+		]
 	}
 }
